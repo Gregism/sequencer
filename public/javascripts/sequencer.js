@@ -4,7 +4,7 @@ Sequencer.Main = (function(){
   var grid,
     note = 8,
     bpm = 100,
-    timing = (1000 * 60/(bpm)),
+    timing = (1000 * 60/(bpm*2)),
     timer = false,
     hihat = document.getElementById('hihat');
 
