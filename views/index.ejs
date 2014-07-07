@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <audio id="hihat" src="sounds/closed_hat.wav" preload="auto"></audio>
+    <!-- Rows -->
+    <label>Rows: </label><button id="minus_row">-</button>
+    <input id="rowInput" type="text" value="" data-bind-rows />
+    <button id="plus_row">+</button><br />
+    <!-- Steps -->
+    <label>Steps: </label><button id="minus_step">-</button>
+    <input id="rowInput" type="text" value="" data-bind-steps/>
+    <button id="plus_step">+</button>
+
+    <table>
+    </table>
+    <br>
+    <button id="pause">Play/Pause</button>
+    <button id="reset">Reset</button>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/table.js"></script>
+    <script type="text/javascript" src="/javascripts/sequencer.js"></script>
+  </body>
+</html>

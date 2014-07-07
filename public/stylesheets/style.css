@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table, td, tr{
+    margin:0;
+    padding: 0;
+}
+td{
+    height: 40px;
+    width: 40px;
+    border: 1px dotted #bbb;
+    background-color: #fff;
+}
+tr[data-current] td{
+    border: 1px solid #999;
+}
+td.selected{
+    background-color: #bbb;
+}
+
+td[data-current]{
+    background-color: pink;
+}
+td[data-current].selected{
+    background-color: purple;
+}

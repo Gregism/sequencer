@@ -1,0 +1,1 @@
+A flexible gate sequencer, hope to use at nodebots meetup to send gate signals to a modular synthesizer.  
